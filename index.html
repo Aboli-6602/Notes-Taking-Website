@@ -27,23 +27,19 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input id="searchTxt" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 
     <div class="container my-3">
-        <h1>Welcome</h1>
-        <div class="card">
+        <h1>Take a Note</h1>
+        <div class="card" style="width: 40rem;">
             <div class="card-body">
                 <input id="noteName" class="form-control" type="text" placeholder="Note Title" aria-label="default input example">
-                <h5 class="card-title">Add a Note</h5>
-                <div class="input-group">
+                <!-- <h5 class="card-title">Add a Note</h5> -->
+                <div class="input-group my-3">
                     <!-- <span class="input-group-text"></span> -->
-                    <textarea id="addTxt" class="form-control" aria-label="With textarea"></textarea>
+                    <textarea id="addTxt" class="form-control" placeholder="Note Content" aria-label="With textarea"></textarea>
                 </div>
                 <button id="addBtn" class="btn btn-primary">Save</button>
             </div>
